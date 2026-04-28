@@ -1,6 +1,6 @@
 import express from 'express'
 
-const PUERTO = 5000
+const PUERTO = 3000
 
 
 // Instancia de servidor express
