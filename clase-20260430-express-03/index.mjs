@@ -48,7 +48,7 @@ app.get('/productos-descuento/:descuento', (req, res)=>{
     const productosConDescuento = productos.map((producto)=>{
         const calculo = producto.precio * (descuento / 100)
         return {
-            ///...productos, //< asignacion spread
+            ///...producto, //< asignacion spread
             id: producto.id,
             nombre: producto.nombre,
             precio: producto.precio - calculo
